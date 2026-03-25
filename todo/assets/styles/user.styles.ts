@@ -9,12 +9,14 @@ export const createUserStyles = (colors: ColorScheme) => {
       height: "100%",
       justifyContent: "center",
       alignItems: "center"
-    }, title: {
+    },
+    title: {
       fontSize: 32,
       fontWeight: "700",
       letterSpacing: -1,
       color: colors.text,
-      textAlign: "center"
+      textAlign: "center",
+      fontFamily: "android"
     },
     section: {
       borderRadius: 20,

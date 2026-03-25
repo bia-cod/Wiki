@@ -23,14 +23,14 @@ const Header = () => {
     <View style={homeStyles.header}>
       <View style={homeStyles.titleContainer}>
         {/* ICONE */}
-        <LinearGradient colors={colors.gradients.primary} style={homeStyles.iconContainer}>
-          <Ionicons name='calendar' size={30} color={"#fff"} />
+        <LinearGradient colors={["#480d8b", "#0e0404"]} style={homeStyles.iconContainer}>
+          <Ionicons name='flash' size={30} color={"#fff"} />
         </LinearGradient>
       </View>
 
       {/* TEXTO */}
       <View style={homeStyles.titleTextContainer}>
-        <Text style={homeStyles.title}>TAREFAS DE HOJE 🆗</Text>
+        <Text style={homeStyles.title}>TAREFAS DE HOJE 👾</Text>
         <Text style={homeStyles.subtitle}> {todoCompletos} de {todoTotal} </Text>
       </View>
 

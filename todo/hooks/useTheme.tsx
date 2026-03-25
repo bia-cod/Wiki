@@ -41,7 +41,7 @@ const lightColors: ColorScheme = {
   danger: "#ef4444",
   shadow: "#000000",
   gradients: {
-    background: ["#f8fafc", "#e2e8f0"],
+    background: ["#f7f7f7", "#e6d6f5"],
     surface: ["#ffffff", "#f8fafc"],
     primary: ["#3b82f6", "#1d4ed8"],
     success: ["#10b981", "#059669"],
@@ -69,7 +69,7 @@ const darkColors: ColorScheme = {
   danger: "#f87171",
   shadow: "#000000",
   gradients: {
-    background: ["#0f172a", "#1e293b"],
+    background: ["#1b0f2a", "#300e4d"],
     surface: ["#1e293b", "#334155"],
     primary: ["#3b82f6", "#1d4ed8"],
     success: ["#10b981", "#059669"],

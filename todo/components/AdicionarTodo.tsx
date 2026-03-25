@@ -30,8 +30,8 @@ const AdicionarTodo = () => {
             <View style={homeStyles.inputWrapper}>
                 <TextInput style={homeStyles.input} placeholder='Digite uma tarefa' placeholderTextColor={colors.textMuted} multiline value={newTodo} onChangeText={setNewTodo} onSubmitEditing={handleAddTodo}/>
                 <TouchableOpacity onPress={handleAddTodo} disabled={!newTodo.trim()}>
-                    <LinearGradient style={homeStyles.addButton} colors={colors.gradients.primary}>
-                        <Ionicons name='add' size={24} color={"#fff"}></Ionicons>
+                    <LinearGradient style={homeStyles.addButton} colors={["#963ee7", "#221c08", "#963ee7"]}>
+                        <Ionicons name='add' size={24} color={"#ffffff"}></Ionicons>
                     </LinearGradient>
                 </TouchableOpacity>
             </View>
