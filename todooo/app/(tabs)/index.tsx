@@ -7,7 +7,6 @@ import useTheme from "@/hooks/useTheme";
 
 import TodoInput from "@/components/AdicionarTodo";
 import Header from "@/components/Header";
-import LoadingSpinner from "@/components/LoadingSpinner";
 import { api } from "@/convex/_generated/api";
 import { Doc, Id } from "@/convex/_generated/dataModel";
 import { Ionicons } from "@expo/vector-icons";
@@ -21,6 +20,7 @@ import {
   View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import LoadingSpinner from "@/components/LoadingSpinner";
 
 type Todo = Doc<"todo">;
 
